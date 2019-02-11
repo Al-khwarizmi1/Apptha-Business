@@ -1,0 +1,157 @@
+root{display: block;}
+*{margin:0px;padding:0px;}
+img{border:none;}
+a{color:#BF4D00;cursor:pointer;text-decoration: none;}
+a:hover{text-decoration: underline;}
+ol, ul { list-style: none; }
+p{line-height: 20px;}
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+body{font-family: arial;background:url(../images/bodybg.png) repeat;}
+/*header starts here*/
+.header{background:#272727;width:100%;}
+#wrapper, #banner_wrapper, #bottom_wrapper, #footer_wrapper, .container, .shadow{clear:both;margin:0px auto; width:950px;}
+h1.logo{float:left;width:230px;padding:20px 0px;}
+.navigation{float:right;background: #151513;margin:30px 0px 12px 0px;}
+.navigation table td{width:760px;}
+.navigation li, .navigation .horiz-menu td a{float:left;display: inline;list-style-type: none;border-left: 1px solid #272727;}
+.navigation ul li a {text-transform: capitalize;text-transform: uppercase;font-family: 'oswald';display:block; text-decoration:none; height:16px;  border-right:0; padding: 12px 18px;}
+.navigation a{color:#fff;font-size:14px;font-weight:normal;text-decoration:none;padding: 0px 25px;font-family: arial;}
+.navigation li:first-child{border: none;}
+.navigation ul{z-index:9999;background: #151513;position:relative;}
+.navigation ul li ul li a {width: 135px;display:block; text-decoration:none; height:18px;border-bottom:1px #333236 solid;   padding: 8px 10px 8px 5px;}
+.navigation ul {padding:0; margin:0; list-style-type:none;}
+.navigation ul li {font-size:15px; font-weight: bolder; width:auto; position:relative;}
+.navigation ul li ul{background: #151513; position: absolute;}
+.navigation ul li ul li {font-size:11px; position:relative; float:none;border:none;}
+.navigation ul ul {visibility:hidden;background: #151513; position:absolute; width:150px;padding:0px 0px;}
+/* The First Drop Down Goes Here */
+.navigation ul :hover ul {visibility:visible; font-size: 10px;}
+.navigation ul :hover ul ul {visibility:hidden;}
+/* The Second set of Drop Down Goes Here */
+.navigation ul :hover ul :hover ul {visibility:visible;}
+.navigation ul :hover ul :hover ul ul {visibility:hidden;}
+.navigation ul ul ul {background: #151513;left:149px; margin-top:-36px;}
+.navigation ul li ul li ul li a{width: 135px;display:block; text-decoration:none; height:18px;border-bottom:1px #333236 solid;   padding: 8px 10px 8px 5px;}
+.navigation ul ul ul ul{background: #151513;left:149px;margin-top:-36px;}
+.navigation ul li ul li ul li ul li a{width: 135px;display:block; text-decoration:none; height:18px;border-bottom:1px #333236 solid;   padding: 8px 10px 8px 5px;}
+.navigation ul li ul li ul li ul li:first-child a, .navigation ul li ul li ul li:first-child a, .navigation ul li ul li:first-child a{border:none;}
+.navigation ul li ul li ul li{float:none;font-size:11px;position:relative;border:none;}
+.navigation ul li ul li ul li ul li{float:none;font-size:11px;position:relative;border:none;}
+.navigation ul li {float:left;}
+.navigation .sub_left {left:-150px;}
+/* The Third Set of Drop Down Goes Here */
+.navigation ul :hover ul :hover ul :hover ul {visibility:visible;}
+.navigation ul :hover ul :hover ul :hover ul ul {visibility:hidden;}
+/* The Fourth Set of Drop Down Goes Here */
+.navigation ul :hover ul :hover ul :hover ul :hover ul {visibility:visible;}
+.navigation ul :hover ul :hover ul :hover ul :hover ul ul{visibility:hidden;}
+.navigation ul li:hover, .navigation table a:hover{color:#000;background:#FFB508; text-decoration: none;}
+.navigation ul li a:hover{color:#000;}
+.navigation ul li ul li:hover{color:#000;background:none; text-decoration: none;}
+.navigation ul :hover ul {visibility:visible; font-size: 10px;}
+.navigation li.active, .navigation table tr td a:active{background:#FFB508;}
+.navigation ul li ul li a:hover{color:#000;background:#FFB508;}
+.navigation ul li ul li ul li a:hover{background:#FFB508;color:#000;}
+.navigation ul li ul li ul li ul li a:hover{background:#FFB508;color:#000;}
+.clear{clear:both;}
+/*header ends here*/
+/*banner starts here*/
+.banners{background:#ff6500;width:100%;}
+#banner_wrapper{position:relative;}
+.banner_container{background:url(../images/bannerbg.png) no-repeat 50% 50%;width:100%;height:310px;padding-top:10px;}
+#prev{position:absolute;top: 155px;z-index: 999;float:left;}
+#prev:hover, #next:hover, #prevNews:hover, #nextNews:hover{cursor:pointer;}
+#next{position: absolute;top: 155px;right:0px;z-index: 999;float:right;}
+#prevNews{left: 0px;position: absolute;top: 20px;z-index: 999;}
+#nextNews{position: absolute;right: 0px;top: 20px;z-index: 999;}
+.news_container{background:url(../images/newsbg.png) repeat-x  #FF6500;width:100%;}
+.newsShow{width:950px; margin: 0px auto;}
+.newsShow a{float:left;padding:15px 20px 10px 20px;width:910px ! important;height:25px ! important;color:#fff;font-family: arial;font-size: 16px;}
+.latestnews{position:relative;margin: 0px auto;width:950px;}
+.footer .latestnews{width:100%;}
+/*banner ends here*/
+.error_msgcontainer{background:white;width:100%;background:#333333;padding:15px 0px;}
+.error_msgcontent{width:920px;margin:0px auto;background:#FF9E04;border-radius: 5px 5px 5px 5px; -moz-border-radius: 5px 5px 5px 5px; color:#000000;font-family:'DejaVu serif';padding:10px 20px;}
+.error_msgcontent dt{font-size: 14px;font-weight:bold;color:#bf0000;padding-bottom: 5px;}
+.error_msgcontent dd{font-size: 12px;margin-bottom:10px;}
+.error_msgcontent dl{padding-top:10px;}
+.error_msgcontent ul{list-style-type:none;}
+/*content container starts here*/
+.container{clear:both;}
+.container ul{width:237px;float:left;background:url(../images/border.png) repeat-y;}
+.container ul:first-child{background: none;}
+.container ul li img{float:left;}
+.container ul li h2{text-shadow: #fff 0px 2px 1px;float:left;color:#BF4D00;font-size:18px;font-family: 'oswald';padding:10px 0px 0px 10px;}
+.container ul li{width:207px;padding:5px 15px;float:left;display:block;list-style-type: none;}
+.container ul li a{float:left;color: #bf4d00;font-size:13px;text-decoration: none;font-family: 'oswald';}
+.container ul li p{font-family: 'Trebuchet MS'; font-size:12px; color:#666;}
+.container ul li h3{font-family: 'Trebuchet MS'; font-size:12px; font-weight:bold;color:#595959;}
+.content_container, .bottom_container{float:left;width:950px;clear:both;padding:20px 0px;}
+/*content container ends here*/
+.shadow img{width:950px;clear:both;float:left;}
+/*bottom container starts here*/
+.left_container{width:207px;float:left;}
+.right_container{width:207px;float:right;}
+.mid_container{float:left;width:500px;margin:0px 18px;overflow:hidden;}
+.module{background:url(../images/moduleshadow.png) 50% 100% no-repeat;margin:10px 0px 0px 0px;}
+.modulecontainer{position:relative;top:-10px;border:1px solid #ccc;width:205px;background:#e8e8e8 url(../images/modulebg.png) repeat-x;margin:0px 0px 20px 0px;padding:10px 0px 0px 0px;}
+.modulecontainer h2{font-family: 'oswald';color: #fff;width:203px;height:26px;font-size: 17px;text-transform: capitalize;padding: 3px 0px 5px 15px;background:url(../images/heading.png) no-repeat;width:203px;height:26px;margin-left: -6px;}
+.modulecontainer .modulecontent h2{font-family: 'oswald';color: #595959;background: none;height:26px;font-size: 17px;text-transform: capitalize;padding: 5px 0px;width:100%;margin:0px;}
+.modulecontent ul{list-style-type:none;margin: 0px 7px 0px 7px ;}
+.modulecontent ul li {border-bottom: 1px dashed #b2b2b2;}
+.modulecontent ul li ul li{border:none;}
+.modulecontent ul li:last-child{border:0px none;}
+.modulecontent{padding: 5px 10px 10px 10px;line-height:20px;font-family:arial;color:#666;font-size:13px;}
+.modulecontent ul li a{font-family:arial;text-decoration: none;color:#666;font-size:13px;padding-left: 15px;line-height: 30px;list-style: none;background:url(../images/arrow.png) no-repeat left center;}
+.modulecontent form {display: block;}
+.modulecontent fieldset {border: none;}
+.modulecontent fieldset p {margin: 0 0 5px;}
+.modulecontent form label {cursor: pointer;}
+.modulecontent form ul{margin:0px 5px 0px 5px;}
+.modulecontent form ul li{border:none;}
+.modulecontent form fieldset input[type="submit"]{margin:6px 0px 0px 0px;}
+.mid_container td, .mid_container form, .mid_container ul, .mid_container p, .mid_container span{font-size:13px;color:#595959;font-family:'arial';margin: 0.5em 0;line-height:20px;}
+.mid_container h2, .mid_container .contentheading, .componentheading, h3 a, h2 a, h1 a, h1{text-transform: capitalize;margin-bottom: 10px;font-family:'oswald';color: #595959;font-size:18px;}
+table.pollstableborder{width: 95%;border: none;text-align: left;}
+table.pollstableborder td {padding: 3px!important;border-collapse: collapse;border-spacing: 0;}
+.bottom_container input[type=text], input[type=password], textarea{font-size: 12px;border:1px solid #bcbcc1;padding:4px;margin:1px 0 4px 0;width:170px;}
+input[type="button"], input[type="submit"], input[type="reset"], button{text-shadow: #fff 0px 1px 1px;font-family: oswald;font-size:12px;background:url(../images/buttonbg.png) repeat-x;border:1px solid #bcbcc1;color: #666;padding:2px 5px;cursor: pointer;}
+input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover, button:hover{color:#BF4D00;}
+.article_column{padding-right: 5px;}
+.column_separator{padding-left: 10px;}
+/*bottom container ends here*/
+.pagination{float:left;}
+.pagination li, .pagenav li{display:inline;list-style-type: none;}
+.pagination a, span{padding:5px;}
+.pagenav .pagenav-next{float:right;}
+.pagenav pagenav-prev{float:left;}
+fieldset{border:none;}
+/*.mid_container fieldset label{width:100%;float:left;}*/
+.mid_container form div input[type="button"], .mid_container form div input[type="submit"], .mid_container form div input[type="reset"], .mid_container form div button{margin-top:10px;}
+.mid_container form fieldset input[type="button"], .mid_container form fieldset  input[type="submit"], .mid_container  form fieldset  input[type="reset"], .mid_container form fieldset button{margin-top:10px;}
+
+/*footer container starts here*/
+.footer{background:url(../images/footerbg.png) repeat;width:100%;float:left;}
+.footer_block_two, .footer_block_three{background:url(../images/footerborder.png) repeat-y;float:left;width:276px;padding:0px 20px;margin:20px 0px;}
+.footer_block_one{float:left;width:276px;padding:0px 20px;margin:20px 0px;}
+h4{width:276px;font-family: 'oswald';color: #fff;font-size: 18px;padding:0px 0px 10px 0px;border-bottom:1px dotted #ccc;}
+.footer_block_one ul{padding:10px 20px;width:236px;float:left;}
+.footer_block_one p{width:236px;font-family:arial;font-size: 14px;font-style: italic;color:#c1c1c1;line-height:20px;}
+.footer_block_one span{width:236px;color:#FFA102;font-family:arial;font-size: 14px;font-style: italic;}
+.footer_block_one ul li, .footer_block_two ul li, .footer_block_three ul li{display:block;float:left;padding:5px 0px;}
+.footer_block_two ul{padding:10px 0px;float:left;width:276px;}
+.footer_block_three ul{padding:10px 0px;float:left;width:276px;background:url(../images/footerborder_hoz.png) 50% 100% repeat-x;}
+ul.network{background:none;padding:10px 35px;width:206px;}
+.footer_block_two p, .footer_block_three p{color:#8c8c8c;font-family:'Trebuchet MS';font-size: 12px;}
+.footer_block_two h5{width:276px;color:#ccc;font-family:'Trebuchet MS';font-size: 13px;}
+.footer_block_two span{font-family:'Trebuchet MS';font-size: 12px;color:#FFA102;width:276px;}
+.footer_block_three .number{font-family:'Trebuchet MS';font-size: 12px;color:#FFA102;padding:0px 10px;border-right:1px solid #8c8c8c;}
+.footer_block_three span{color:#fff;font-family:'Trebuchet MS';font-size: 12px;padding:0px 10px;}
+.network li{float:left;display:inline;list-style-type: none;margin:0px 10px;}
+.copyright{float:left;width:276px;color:#fff;font-family:'Trebuchet MS';font-size: 11px;}
+.login-fields label {float: left;width: 140px;}
+#users-profile-core dt, #users-profile-custom dt {float: left;padding: 3px 0;width: 12em;}
+#users-profile-core dd, #users-profile-custom dd {padding: 3px 0;}
+.profile-edit form#member-profile fieldset dt, .registration form#member-registration fieldset dt {padding: 5px 5px 5px 0;width: 13em;}
+.profile-edit form#member-profile fieldset dd, .registration form#member-registration fieldset dd {float: none;padding: 5px 0;}
+/*footer container ends here*/

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<install version="1.6" type="template" client="site" method="upgrade">
+    <name>Apptha Business</name>
+    <creationDate>November 2011</creationDate>
+    <author>Apptha Team</author>
+    <authorEmail>support@apptha.com</authorEmail>
+    <authorUrl>http://www.apptha.com</authorUrl>
+    <version>1.1</version>
+    <description><![CDATA[
+        <style>
+        table.adminform th{padding:0px;}
+        </style>
+        <div style="/* Opera 11.10+ */
+        background: -o-linear-gradient(top, rgba(255,255,255,1), rgba(232,232,232,1));
+
+        /* Firefox 3.6+ */
+        background: -moz-linear-gradient(top, rgba(255,255,255,1), rgba(232,232,232,1));
+
+        /* Chrome 7+ & Safari 5.03+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255,255,255,1)), color-stop(1, rgba(232,232,232,1)));
+
+        /* IE5.5 - IE7 */
+        filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FFFFFFFF,EndColorStr=#FFE8E8E8);
+
+        /* IE8 */
+        -ms-filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FFFFFFFF,EndColorStr=#FFE8E8E8);">
+        <div style="float: left; margin:10px 10px 10px 10px;">
+                <a href="http://www.apptha.com/" target="_blank">
+                    <img src="../templates/appthabusiness/images/logo.png" alt="Apptha! Apptha Business" align="left" />
+                </a>
+            </div>
+            <div style="clear:both;"></div>
+        <p style="font-style:normal;font-size:13px;font-weight:normal;">Apptha Business is an free Joomla template that bestow powerful web presence for business. This free business template deliver stunning design and adept features.</p>
+            <div style="margin-left:10px;padding-bottom:10px;">
+                <a href="http://www.apptha.com/download.php?name=documentation.pdf&link=images/Themes/Joomla/appthabusiness/documentation.pdf">Click here to download the documentation</a><br/>
+            </div>
+            </div>
+     ]]></description>
+    <files>
+        <folder>css</folder>
+        <folder>html</folder>
+        <folder>images</folder>
+        <folder>element</folder>
+        <folder>js</folder>
+        <filename>favicon.ico</filename>
+        <filename>index.html</filename>
+        <filename>index.php</filename>
+        <filename>params.ini</filename>
+        <filename>component.php</filename>
+        <filename>templateDetails.xml</filename>
+        <filename>template_thumbnail.png</filename>
+    </files>
+    <positions>
+        <position>appthabusiness-topbanner</position>
+        <position>appthabusiness-bottom2</position>
+        <position>appthabusiness-bottom1</position>
+    </positions>
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.tpl_appthabusiness.sys.ini</language>
+    </languages>
+    <params addpath="/templates/appthabusiness/element">
+        <param name="logo" type="Media" default="" label="Upload Logo Image" description="Upload only the Logoimages" />
+        <param name="facebook_url" type="text" default="" label="Facebook Page URL" description="Enter the facebook url" />
+        <param name="twitter_url" type="text" default="" label="Twitter Page URL" description="Enter the twitter url" />
+        <param name="linkedin_url" type="text" default="" label="LinkedIn Page URL" description="Enter the linkedin url" />
+    </params>
+   <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="logo" type="Media" default="" label="Upload Logo Image:" description="Upload only the Logoimages" directory="  " />
+                <field name="facebook_url" type="text" default="" label="Facebook Page URL" description="Enter the facebook url" />
+                <field name="twitter_url" type="text" default="" label="Twitter Page URL" description="Enter the twitter url" />
+                <field name="linkedin_url" type="text" default="" label="LinkedIn Page URL" description="Enter the linkedin url" />
+            </fieldset>
+        </fields>
+    </config>
+</install>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<install type="package" version="1.6" method="upgrade">
+    <name>Business Packages</name>
+    <packagename>appthabusiness</packagename>
+    <author>Apptha</author>
+    <creationDate>November 2011</creationDate>
+    <version>1.1</version>
+    <url>http://www.apptha.com</url>
+    <packager>Apptha</packager>
+    <packagerurl>http://www.apptha.com</packagerurl>
+    <description>
+        <![CDATA[
+        <style>
+        table.adminform th{padding:0px;}
+        </style>
+        <div style="/* Opera 11.10+ */
+        background: -o-linear-gradient(top, rgba(255,255,255,1), rgba(232,232,232,1));
+
+        /* Firefox 3.6+ */
+        background: -moz-linear-gradient(top, rgba(255,255,255,1), rgba(232,232,232,1));
+
+        /* Chrome 7+ & Safari 5.03+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255,255,255,1)), color-stop(1, rgba(232,232,232,1)));
+
+        /* IE5.5 - IE7 */
+        filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FFFFFFFF,EndColorStr=#FFE8E8E8);
+
+        /* IE8 */
+        -ms-filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FFFFFFFF,EndColorStr=#FFE8E8E8);">
+        <div style="float: left; margin:10px 10px 10px 10px;">
+                <a href="http://www.apptha.com/" target="_blank">
+                    <img src="../templates/appthabusiness/images/logo.png" alt="Apptha! Apptha Business" align="left" />
+                </a>
+            </div>
+            <div style="clear:both;"></div>
+        <p style="font-style:normal;font-size:13px;font-weight:normal;">Apptha Business is an free Joomla template that bestow powerful web presence for business. This free business template deliver stunning design and adept features.</p>
+            <div style="margin-left:10px;padding-bottom:10px;">
+                <a href="http://www.apptha.com/download.php?name=documentation.pdf&link=images/Themes/Joomla/appthabusiness/documentation.pdf">Click here to download the documentation</a><br/>
+            </div>
+            </div>
+     ]]>
+    </description>
+    <update>http://apptha.com</update>
+    <files folder="packages">
+        <file type="module"   id="mod_articlelist" client="site">mod_articlelist.zip</file>
+        <file type="module"   id="mod_contus_bannerslider" client="site">mod_contus_bannerslider.zip</file>
+        <file type="module"   id="mod_testimonial" client="site">mod_testimonial.zip</file>
+        <file type="component"  id="com_tests">com_tests.zip</file>
+        <file type="template" id="appthabusiness" client="site">appthabusiness.zip</file>
+    </files>
+</install>
